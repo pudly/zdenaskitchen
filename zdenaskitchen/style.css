@@ -216,7 +216,8 @@ h1 {
   font-size: 3em;
   color: #bf4f9d;
   margin-bottom: .5em;
-  text-shadow: 1px 1px 0 #672364; }
+  text-shadow: 1px 1px 0 #672364;
+  line-height: 1em; }
 
 h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;

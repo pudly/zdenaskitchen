@@ -61,6 +61,6 @@ if ( has_post_thumbnail() ) {
 			);
 		?>
 
-		<?php edit_post_link( __( 'Edit', '_s' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php // edit_post_link( __( 'Edit', '_s' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
