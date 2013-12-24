@@ -1,0 +1,52 @@
+.site-header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 380px;
+	background: url(img/greyzz.png);
+}
+
+.site-branding {
+	.site-title a {
+		display: block;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 299px;
+		height: 349px;
+		background: url(img/logo.png) no-repeat;
+		margin: 40px auto;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.site-branding { 
+		.site-title a {
+			background: url(img/logo_@2x.png) no-repeat;
+			background-size: 100%;
+		}
+	}
+
+	.site-header {
+		background: url(img/greyzz_@2x.png);
+		background-size: 149px 139px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	html {
+		font-size: 8px;
+	}
+
+	.site-header {
+		width: 200px;
+	}
+
+	.site-branding .site-title a {
+		width: 180px;
+		height: 220px;
+		background-size: 100%;
+		margin-top: 20px;
+	}
+}
