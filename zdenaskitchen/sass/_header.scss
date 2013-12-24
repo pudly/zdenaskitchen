@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 800px) {
 	html {
-		font-size: 8px;
+		font-size: 9px;
 	}
 
 	.site-header {
@@ -48,5 +48,21 @@
 		height: 220px;
 		background-size: 100%;
 		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.site-header {
+		position: relative;
+		height: auto;
+		width: auto;
+		padding: 20px 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.site-branding {
+		.site-title a {
+			margin: 0 auto;
+		}
 	}
 }

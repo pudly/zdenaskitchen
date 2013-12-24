@@ -4,7 +4,6 @@
 .main-navigation {
 	clear: both;
 	display: block;
-	float: left;
 	width: 100%;
 
 	// first level
@@ -84,5 +83,24 @@
 }
 
 @media screen and (max-width: 600px) {
+	.main-navigation ul {
+		width: 90%;
+		text-align: center;
+		border-top: 1px solid lighten($cPink, 40%);
+		border-bottom: 1px solid lighten($cPink, 40%);
+		
+		li {
+			display: inline-block;
+			border-left: 1px solid lighten($cPink, 40%);
+			
+			a {
+				padding: .75em;
+				border: 0 !important;
+			}
 
+			&:last-child {
+				border-right: 1px solid lighten($cPink, 40%);
+			}
+		}
+	}
 }

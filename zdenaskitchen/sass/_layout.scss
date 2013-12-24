@@ -15,6 +15,14 @@
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.site-content {
+		margin: 0;
+		padding: 20px 20px 60px 20px;
+	}
+}
+
+
 // Layout: Content-Sidebar
 @if $layout == content-sidebar {
 	.content-area {

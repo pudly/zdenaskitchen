@@ -113,3 +113,9 @@ a.more {
 		background: $cPurple;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	a.more {
+		font-size: 1em;
+	}
+}

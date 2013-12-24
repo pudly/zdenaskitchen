@@ -177,7 +177,7 @@ a img {
     background-size: 149px 139px; } }
 @media screen and (max-width: 800px) {
   html {
-    font-size: 8px; }
+    font-size: 9px; }
 
   .site-header {
     width: 200px; }
@@ -187,6 +187,16 @@ a img {
     height: 220px;
     background-size: 100%;
     margin-top: 20px; } }
+@media screen and (max-width: 600px) {
+  .site-header {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd; }
+
+  .site-branding .site-title a {
+    margin: 0 auto; } }
 body,
 button,
 input,
@@ -445,12 +455,15 @@ a:hover {
     margin-left: 200px;
     padding: 20px 0 60px 20px;
     margin-right: 20px; } }
+@media screen and (max-width: 600px) {
+  .site-content {
+    margin: 0;
+    padding: 20px 20px 60px 20px; } }
 /* =Menu
 ----------------------------------------------- */
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
   width: 100%; }
   .main-navigation ul {
     list-style: none;
@@ -490,6 +503,20 @@ a:hover {
   display: none;
   cursor: pointer; }
 
+@media screen and (max-width: 600px) {
+  .main-navigation ul {
+    width: 90%;
+    text-align: center;
+    border-top: 1px solid #f5e5f0;
+    border-bottom: 1px solid #f5e5f0; }
+    .main-navigation ul li {
+      display: inline-block;
+      border-left: 1px solid #f5e5f0; }
+      .main-navigation ul li a {
+        padding: .75em;
+        border: 0 !important; }
+      .main-navigation ul li:last-child {
+        border-right: 1px solid #f5e5f0; } }
 /* =Content
 ----------------------------------------------- */
 .hentry {
@@ -574,6 +601,9 @@ a.more {
     color: #fff !important;
     background: #672364; }
 
+@media screen and (max-width: 600px) {
+  a.more {
+    font-size: 1em; } }
 /* =Asides
 ----------------------------------------------- */
 .blog .format-aside .entry-title, .archive .format-aside .entry-title {
